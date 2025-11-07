@@ -17,5 +17,7 @@ if __name__ == "__main__":
         ["a", "b", "a"],    # 字符串重复
         []                   # 空列表
     ]
-    
+    for i in test_cases:
+        result = has_duplicates(i)
+        print(f'｛lst｝:result')
     # 测试每个用例，编写具体测试代码
