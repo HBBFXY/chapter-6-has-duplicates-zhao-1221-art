@@ -19,5 +19,5 @@ if __name__ == "__main__":
     ]
     for i in test_cases:
         result = has_duplicates(i)
-        print(f'｛lst｝:result')
+        print(result)
     # 测试每个用例，编写具体测试代码
