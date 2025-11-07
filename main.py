@@ -6,7 +6,7 @@ def has_duplicates(lst):
     返回: bool - 如果有重复元素返回 True，否则返回 False
     """
     # 学生实现代码区域
-   
+   return len(lst) != len(set(lst))
 
 # 主程序 - 测试函数
 if __name__ == "__main__":
